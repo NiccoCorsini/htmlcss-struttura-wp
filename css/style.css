@@ -1,0 +1,74 @@
+/* GENERAL */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* MACROCONTAINER THIS SECTION CONTAIN ALL SECTIONS */
+.macrocontainer{
+    width: 80%;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+/* HEADER */
+header{
+    height: 80px;/* fake content */
+    background-color: #e578e6;
+    margin-bottom: 20px;
+}
+
+/* MAIN */
+main{
+    margin-bottom: 8px;
+}
+
+/* INFO */
+.info{
+    height: 550px;/* fake content */
+    background-color: #e1d579;
+    margin-bottom: 20px;
+}
+
+/* INTERACTIONS */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+} 
+
+.interactions{
+    padding-bottom: 15px;
+    background-color: #3287ff;
+}
+
+.interactions .int{
+    float: left;
+    background-color: #abcfe7;
+}
+
+.interactions .title.int{
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.interactions .int:nth-of-type(even){
+    width: 20%;
+    height: 550px;
+}
+
+.interactions .center{
+    width: calc(60% - 30px);
+    margin: 0 15px;
+    height: 550px;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #8700fe;
+}
